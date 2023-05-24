@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.main-header {
+    background-color:#EAC926 ;
+    height: 80%;
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 20px;
+        }
+.main-header-top{
+    display: flex;
+    justify-content: space-around;
+}
+div nav ul {
+    justify-content: flex-start;
+}
+.main-header-bottom {
+   display: flex;
+    justify-content: space-between;
+}
+
+.main-header-bottom ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.main-header-bottom a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 16px;
+}
+footer {
+        text-align: center;
+    }
+footer section div img{
+    width: 2em;
+    margin-bottom: 10px;
+    
+}
+footer section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+
+}
+   
+header .buscador .input{
+    background-color: white;
+    border : solid 1px black;
+    color: #666;
+}
+
+header .buscador .lupa i{
+    background-color: white;
+    border : solid 1px black;
+    color: #666;
+}
+.espacio-margen{
+    order: 1;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    
+}
+header nav {
+    display: none;
+}
+
+header nav ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul {
+    margin-bottom: 0;
+}
+
+main h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    }
+.descripcion {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    
+    }
+.descuento {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    
+    }
+.precios {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+
+header div.burger-menu i{
+    color: white;
+    background-color: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin : 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+header div.burger-menu {
+    text-align: center ;
+}
+
+main {
+    text-align: center;
+    width: 90vw;
+}
+
+.caja {
+    border-top : solid 1px #ebebeb;
+    padding: 15px;
+}
+
+main section article {
+    margin-bottom: 10px;
+}
+
+.banner-img{
+    width: 100vw;
+}
+
+
+main section article div div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+}
+main section article div div{
+    position: relative;
+}
+
+
+.desc-pro{
+    display: none;
+}
+@media (min-width: 361px) {
+    .desc-pro{
+        display: block;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    header nav {
+        display: none;
+    }
+    header div.burger-menu {
+       display: none;
+    }
+
+}
+@media (min-width: 769px) {
+    header nav {
+        display: block;
+    }
+}
